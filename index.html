@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>The Boomtown Shootout Movie</title>
+    <link rel="stylesheet" href="https://cdn.crystalnetwork.us/bower/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.crystalnetwork.us/bower/animate.css/animate.min.css" />
+    <script type="text/javascript" src="https://cdn.crystalnetwork.us/bower/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdn.crystalnetwork.us/bower/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.crystalnetwork.us/bower/emojify.js/emojify.js"></script>
+    <script type="text/javascript">
+    // Smooth scroll...
+    $(function() {
+      $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html,body').animate({
+              scrollTop: target.offset().top
+            }, 1000);
+            return false;
+          }
+        }
+      });
+    });
+    </script>
+    <style>
+    html {
+      position: relative;
+      min-height: 100%;
+    }
+    body {
+      /* Margin bottom by footer height */
+      margin-bottom: 60px;
+    }
+    #footer {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      /* Set the fixed height of the footer here */
+      height: 60px;
+      background-color: #f5f5f5;
+      padding-bottom: 20px
+    }
+    #rating {
+      display: inline-block;
+    }
+
+    #gun {
+      display: inline;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="tile-cover">
+      <br>
+      <br>
+      <center><img src="img/gun.png" id="gun"><h1 class="animated fadeInUp text-info" style="font-size: 78px;display: inline;"> The Boomtown Shootout </h1><img src="img/gun.png" id="gun"></center>
+      <br>
+      <center><p class="animated fadeInUp" style="font-size: 45px;">A major fight between the Earps and the Clantons that took place around O.K. Corral.</p></center>
+      <br>
+      <center><img src="img/walking.jpg" class="img-responsive img-rounded" /></center>
+    </div>
+    <br>
+    <br>
+    <div class="container-fluid">
+      <hr class="featurette-divider" />
+    </div>
+    <div class="body-cover">
+      <br>
+      <center><h1>Starring</h1></center>
+      <div class="container panel panel-warning">
+        <div class="panel-body">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Characters</th>
+                <th>Actor's names</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>Wyatt Earp</th>
+                <th>Tom Hanks</th>
+              <tr>
+              <tr>
+                <th>Morgan Earp</th>
+                <th>Adam Sandler</th>
+              <tr>
+              <tr>
+                <th>Ike Clanton</th>
+                <th>Matt Damon</th>
+              <tr>
+              <tr>
+                <th>Tom McLaury</th>
+                <th>Tom Cruise</th>
+              <tr>
+              <tr>
+                <th>Sheriff Behan</th>
+                <th>Jim Carrey</th>
+              <tr>
+              <tr>
+                <th>Kiley Tonya</th>
+                <th>Jennifer Lawrence</th>
+              <tr>
+              <tr>
+                <th>Virgil Earp</th>
+                <th>Johnny Depp</th>
+              <tr>
+              <tr>
+                <th>Doc Holiday</th>
+                <th>Leonardo DiCaprio</th>
+              <tr>
+              <tr>
+                <th>Billy Clanton</th>
+                <th>Brad Pitt</th>
+              <tr>
+              <tr>
+                <th>Frank McLaury</th>
+                <th>Robert Downey Jr.</th>
+              <tr>
+              <tr>
+                <th>Petunia Calypso</th>
+                <th>Julia Roberts</th>
+              <tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div id="footer">
+      <div class="container" style="padding-bottom: 5px;">
+          <p class="text-muted" style="padding-top: 30px;display:inline-block;">Comming Fall 2018</p>
+        <div id="rating" class="pull-right">
+          <h2 style="display:inline-block; padding-right: 15px;">Rated: </h2><a class="btn btn-success btn-lg" style="display:inline-block; padding-bottom:">PG-13</a>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">emojify.run();</script>
+  </body>
+</html>
